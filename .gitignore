@@ -1,6 +1,5 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,storybookjs
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode,storybookjs
 
 ### Node ###
 # Logs
@@ -96,9 +95,6 @@ out
 .nuxt
 dist
 
-# Turborepo build / generate output
-.turbo
-
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -145,6 +141,12 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+### StorybookJs ###
+# gitignore template for the Storybook, UI guide for front apps
+# website: https://storybook.js.org/
+
+storybook-static/
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -170,4 +172,4 @@ dist
 # Ignore code-workspaces
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,storybookjs
