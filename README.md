@@ -3,6 +3,11 @@
 Storybook seminar as part of [Celtiberian][celtiberian] workshops.
 This repository contains a basic [React][react] project using [Vite][vite] as bundler and [Storybook][storybook] configuration.
 
+## Storybook alternatives for React
+- [Atellier](https://scup.github.io/atellier/)
+- [React Cosmos](https://reactcosmos.org/)
+- [Ladle](https://ladle.dev/)
+
 ## Dependencies
 
 - [npm] (>=8.5.0)
