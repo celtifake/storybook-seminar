@@ -3,6 +3,12 @@
 Storybook seminar as part of [Celtiberian][celtiberian] workshops.
 This repository contains a basic [React][react] project using [Vite][vite] as bundler and [Storybook][storybook] configuration.
 
+## Storybook addons
+- [Accesibility](https://storybook.js.org/addons/@storybook/addon-a11y/)
+- [Designs](https://storybook.js.org/addons/storybook-addon-designs/)
+- [Jest](https://storybook.js.org/addons/@storybook/addon-jest/)
+- [Storybook test runner](https://storybook.js.org/addons/@storybook/test-runner/)
+
 ## Storybook alternatives for React
 - [Atellier](https://scup.github.io/atellier/)
 - [React Cosmos](https://reactcosmos.org/)
