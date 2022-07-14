@@ -173,3 +173,7 @@ storybook-static/
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,storybookjs
+
+### Jest
+# Test results
+.jest-test-results.json

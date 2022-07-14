@@ -11,6 +11,13 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
+  parameters: {
+    jest: 'Button.test.tsx',
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/3G1VM36JhA78bPKZVpWbaT/Button?node-id=0%3A1',
+    },
+  },
 } as ComponentMeta<typeof Button>
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

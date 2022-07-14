@@ -4,6 +4,10 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
+    '@storybook/addon-a11y',
+    '@storybook/addon-coverage',
+    '@storybook/addon-jest',
+    'storybook-addon-designs',
   ],
   framework: '@storybook/react',
   core: {
@@ -11,5 +15,16 @@ module.exports = {
   },
   features: {
     storyStoreV7: true,
+    interactionsDebugger: true,
+  },
+  async viteFinal(config, { configType }) {
+    config.resolve = {
+      ...config.resolve,
+      alias: {
+        ...config.resolve.alias,
+        path: require.resolve('path-browserify'),
+      },
+    }
+    return config
   },
 }
