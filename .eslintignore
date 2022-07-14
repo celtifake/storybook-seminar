@@ -1,0 +1,5 @@
+.eslintrc.js
+.prettierrc.js
+jest.config.js
+dist/
+storybook-static/
